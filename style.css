@@ -36,6 +36,14 @@ form {
     align-items: center;
 }
 
+span {
+    display: flex;
+    color: blue;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: end;
+}
+
 .logo {
     display: flex;
     flex-direction: column;
