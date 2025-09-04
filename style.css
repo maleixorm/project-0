@@ -44,3 +44,48 @@ form {
     height: calc(100%-560px);
     max-height: 150px;
 }
+
+.search {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 0 8px 0 0;
+    font-size: 14px;
+    color: #e8e8e8;
+    margin: 2rem 0 1rem 0;
+}
+
+input {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-width: 320px;
+    min-height: 50px;
+    background: #4d5156;
+    border: 1px solid transparent;
+    box-shadow: none;
+    border-radius: 26px;
+    margin: 0 auto;
+    padding: 0 0 0 1rem;
+    font-size: 14px;
+    color: #e8eaed;
+}
+
+button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+    font-family: Google Sans, Arial, sans-serif;
+    font-optical-sizing: none;
+    font-size: 14px;
+    font-weight: 400;
+}
