@@ -19,6 +19,32 @@ nav {
     font-size: 13px;
 }
 
+.advanced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.advanced__span {
+    color: #F28B82;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advanced__link {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.advanced__link:hover {
+    text-decoration: underline;
+}
+
 nav > a {
     color: #fff;
     text-decoration: none;
