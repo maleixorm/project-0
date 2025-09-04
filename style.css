@@ -38,10 +38,12 @@ form {
 
 span {
     display: flex;
-    color: blue;
-    font-size: 14px;
+    justify-content: right;
+    min-width: 272px;
+    color: #4487f6;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    align-items: end;
+    margin-top: -16px;
 }
 
 .logo {
