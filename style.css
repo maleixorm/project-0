@@ -12,10 +12,6 @@ body {
 
 }
 
-header {
-    border-bottom: 1px solid #e8e8e8;
-}
-
 nav {
     display: flex;
     justify-content: right;
@@ -112,6 +108,10 @@ nav > a:hover {
     font-size: 13px;
 }
 
+.advanced__header {
+    border-bottom: 1px solid #e8e8e8;
+}
+
 .advanced__span {
     color: #F28B82;
     font-size: 16px;
@@ -135,10 +135,6 @@ nav > a:hover {
     margin: 2rem 0;
 }
 
-.advanced__container div {
-    
-}
-
 .advanced__container label {
     font-size: 14px;
     color: #4d5156;
@@ -147,4 +143,10 @@ nav > a:hover {
 .advanced__container input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: transparent;
+}
+
+.advanced__form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
 }
