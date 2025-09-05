@@ -145,8 +145,25 @@ nav > a:hover {
     background-color: transparent;
 }
 
-.advanced__form-field {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+.advanced__container button {
+    background-color: #4487f6;
+    border: 1px solid #4487f6;
+    color: #e8eaed;
+    margin-top: 1rem;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 26px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 2px;
+    font-optical-sizing: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tdd {
+    text-align: right;
+    padding-left: 1rem;
 }
