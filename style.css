@@ -7,7 +7,9 @@
 body {
     height: 100%;
     background-color: #101218;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+
 }
 
 nav {
@@ -15,34 +17,7 @@ nav {
     justify-content: right;
     align-items: center;
     margin: 30px 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-}
-
-.advanced {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.advanced__span {
-    color: #F28B82;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.advanced__link {
-    color: #fff;
-    text-decoration: none;
-    padding-right: 1rem;
-}
-
-.advanced__link:hover {
-    text-decoration: underline;
 }
 
 nav > a {
@@ -55,23 +30,6 @@ nav > a:hover {
     text-decoration: underline;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    align-items: center;
-}
-
-span {
-    display: flex;
-    justify-content: right;
-    min-width: 272px;
-    color: #4487f6;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -16px;
-}
-
 .logo {
     display: flex;
     flex-direction: column;
@@ -79,6 +37,15 @@ span {
     min-height: 92px;
     height: calc(100%-560px);
     max-height: 150px;
+}
+
+.logo span {
+    display: flex;
+    justify-content: right;
+    min-width: 272px;
+    color: #4487f6;
+    font-size: 16px;
+    margin-top: -16px;
 }
 
 .search {
@@ -91,7 +58,14 @@ span {
     margin: 2rem 0 1rem 0;
 }
 
-input {
+.search form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.search input {
     display: flex;
     z-index: 3;
     position: relative;
@@ -107,7 +81,7 @@ input {
     color: #e8eaed;
 }
 
-button {
+.search button {
     background-color: #303134;
     border: 1px solid #303134;
     color: #e8eaed;
@@ -120,8 +94,35 @@ button {
     cursor: pointer;
     user-select: none;
     border-radius: 8px;
-    font-family: Google Sans, Arial, sans-serif;
     font-optical-sizing: none;
     font-size: 14px;
     font-weight: 400;
+}
+
+.advanced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    padding: 30px 8px;
+    font-size: 13px;
+}
+
+.advanced__span {
+    color: #F28B82;
+    font-size: 16px;
+}
+
+.advanced__link {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.advanced__link:hover {
+    text-decoration: underline;
+}
+
+.advanced__container {
+    border-top: 1px solid #e8e8e8;
 }
