@@ -12,6 +12,10 @@ body {
 
 }
 
+header {
+    border-bottom: 1px solid #e8e8e8;
+}
+
 nav {
     display: flex;
     justify-content: right;
@@ -124,5 +128,23 @@ nav > a:hover {
 }
 
 .advanced__container {
-    border-top: 1px solid #e8e8e8;
+    margin: 2rem;
+}
+
+.advanced__container p {
+    margin: 2rem 0;
+}
+
+.advanced__container div {
+    
+}
+
+.advanced__container label {
+    font-size: 14px;
+    color: #4d5156;
+}
+
+.advanced__container input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
 }
