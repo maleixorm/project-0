@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Search</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -20,13 +21,14 @@
         </div>
         <div class="search">
             <form action="https://google.com/search" method="get">
-                <input type="text" name="q">
+                <input type="text" name="q" id="q">
                 <div>
                     <button type="submit">Google Search</button>
-                    <button type="submit">I'm Luck</button>
+                    <button onclick="lucky()">I'm Luck</button>
                 </div>
             </form>
         </div>
     </main>
+    <footer></footer>
 </body>
 </html>
